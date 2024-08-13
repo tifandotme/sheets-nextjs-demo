@@ -1961,12 +1961,12 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.31.5
+      terser: 5.31.6
       webpack: 5.93.0
     dev: true
 
-  /terser@5.31.5:
-    resolution: {integrity: sha512-YPmas0L0rE1UyLL/llTWA0SiDOqIcAQYLeUj7cJYzXHlRTAnMSg9pPe4VJ5PlKvTrPQsdVFuiRiwyeNlYgwh2Q==}
+  /terser@5.31.6:
+    resolution: {integrity: sha512-PQ4DAriWzKj+qgehQ7LK5bQqCFNMmlhjR2PFFLuqGCpuCAauxemVBWwWOxo3UIwWQx8+Pr61Df++r76wDmkQBg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2056,8 +2056,8 @@ packages:
     dev: false
     optional: true
 
-  /watchpack@2.4.1:
-    resolution: {integrity: sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg==}
+  /watchpack@2.4.2:
+    resolution: {integrity: sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==}
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
@@ -2101,7 +2101,7 @@ packages:
       schema-utils: 3.3.0
       tapable: 2.2.1
       terser-webpack-plugin: 5.3.10(webpack@5.93.0)
-      watchpack: 2.4.1
+      watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - '@swc/core'
