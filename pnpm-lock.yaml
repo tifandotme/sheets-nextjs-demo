@@ -417,10 +417,10 @@ packages:
       undici-types: 6.11.1
     dev: true
 
-  /@types/node@22.2.0:
-    resolution: {integrity: sha512-bm6EG6/pCpkxDf/0gDNDdtDILMOHgaQBVOJGdwsqClnxA3xL6jtMv76rLBc006RVMWbmaf0xbmom4Z/5o2nRkQ==}
+  /@types/node@22.3.0:
+    resolution: {integrity: sha512-nrWpWVaDZuaVc5X84xJ0vNrLvomM205oQyLsRt7OHNZbSHslcWsvgFR7O7hire2ZonjLrWBbedmotmIlJDVd6g==}
     dependencies:
-      undici-types: 6.13.0
+      undici-types: 6.18.2
 
   /@types/prop-types@15.7.12:
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -471,7 +471,7 @@ packages:
       '@rc-component/color-picker': 1.9.0(react-dom@18.3.1)(react@18.3.1)
       '@rc-component/trigger': 2.2.0(react-dom@18.3.1)(react@18.3.1)
       '@types/react-mentions': 4.1.13
-      '@univerjs/icons': 0.1.73(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
       clsx: 2.1.1
       dayjs: 1.11.12
       rc-dialog: 9.5.2(react-dom@18.3.1)(react@18.3.1)
@@ -566,8 +566,8 @@ packages:
       rxjs: 7.8.1
     dev: false
 
-  /@univerjs/icons@0.1.73(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-MIXUvj/SfqL4vb5XCHQl27E6Nd0IYzjYFdsZBJCBkPzo0ZzOBAnru5K/EiDNWO+HoGN81rRk6NG5CJHyAguUDQ==}
+  /@univerjs/icons@0.1.74(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-JP1NUDod6jg5OOHzK1FmcJ+0qXF24MisyBC333Nz8SXAk1IKsdr89AyTEpbSXFDl8vI7xRpttCvW6hQ84s0lLg==}
     peerDependencies:
       react: '*'
       react-dom: '*'
@@ -617,7 +617,7 @@ packages:
       '@univerjs/docs': 0.2.5(@univerjs/core@0.2.5)(@univerjs/engine-render@0.2.5)(rxjs@7.8.1)
       '@univerjs/engine-formula': 0.2.5(@univerjs/core@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.5(@univerjs/core@0.2.5)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.73(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/rpc': 0.2.5(@univerjs/core@0.2.5)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.5(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-numfmt@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.5(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.5)(@univerjs/design@0.2.5)(@univerjs/docs-ui@0.2.5)(@univerjs/docs@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-numfmt@0.2.5)(@univerjs/engine-render@0.2.5)(@univerjs/sheets@0.2.5)(@univerjs/ui@0.2.5)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
@@ -645,7 +645,7 @@ packages:
       '@univerjs/design': 0.2.5(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-numfmt': 0.2.5
       '@univerjs/engine-render': 0.2.5(@univerjs/core@0.2.5)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.73(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/sheets': 0.2.5(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-numfmt@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/sheets-ui': 0.2.5(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.5)(@univerjs/design@0.2.5)(@univerjs/docs-ui@0.2.5)(@univerjs/docs@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-numfmt@0.2.5)(@univerjs/engine-render@0.2.5)(@univerjs/sheets@0.2.5)(@univerjs/ui@0.2.5)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.5(@univerjs/core@0.2.5)(@univerjs/design@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-render@0.2.5)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.4)
@@ -678,7 +678,7 @@ packages:
       '@univerjs/engine-formula': 0.2.5(@univerjs/core@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/engine-numfmt': 0.2.5
       '@univerjs/engine-render': 0.2.5(@univerjs/core@0.2.5)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.73(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/protocol': 0.1.38-alpha.23(@grpc/grpc-js@1.11.1)(rxjs@7.8.1)
       '@univerjs/sheets': 0.2.5(@grpc/grpc-js@1.11.1)(@univerjs/core@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-numfmt@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/ui': 0.2.5(@univerjs/core@0.2.5)(@univerjs/design@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-render@0.2.5)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.4)
@@ -726,7 +726,7 @@ packages:
       '@univerjs/design': 0.2.5(clsx@2.1.1)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/engine-formula': 0.2.5(@univerjs/core@0.2.5)(@univerjs/rpc@0.2.5)(rxjs@7.8.1)
       '@univerjs/engine-render': 0.2.5(@univerjs/core@0.2.5)(rxjs@7.8.1)
-      '@univerjs/icons': 0.1.73(react-dom@18.3.1)(react@18.3.1)
+      '@univerjs/icons': 0.1.74(react-dom@18.3.1)(react@18.3.1)
       '@univerjs/ui': 0.2.5(@univerjs/core@0.2.5)(@univerjs/design@0.2.5)(@univerjs/engine-formula@0.2.5)(@univerjs/engine-render@0.2.5)(clsx@2.1.1)(react-dom@18.3.1)(react@18.3.1)(rxjs@7.8.1)(typescript@5.5.4)
       clsx: 2.1.1
       localforage: 1.10.0
@@ -1013,7 +1013,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001651
-      electron-to-chromium: 1.5.6
+      electron-to-chromium: 1.5.7
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
     dev: true
@@ -1110,8 +1110,8 @@ packages:
       csstype: 3.1.3
     dev: false
 
-  /electron-to-chromium@1.5.6:
-    resolution: {integrity: sha512-jwXWsM5RPf6j9dPYzaorcBSUg6AiqocPEyMpkchkvntaH9HGfOOMZwxMJjDY/XEs3T5dM7uyH1VhRMkqUU9qVw==}
+  /electron-to-chromium@1.5.7:
+    resolution: {integrity: sha512-6FTNWIWMxMy/ZY6799nBlPtF1DFDQ6VQJ7yyDP27SJNt5lwtQ5ufqVvHylb3fdQefvRcgA3fKcFMJi9OLwBRNw==}
     dev: true
 
   /emoji-regex@8.0.0:
@@ -1231,7 +1231,7 @@ packages:
     resolution: {integrity: sha512-7vuh85V5cdDofPyxn58nrPjBktZo0u9x1g8WtjQol+jZDaE+fhN+cIvTj11GndBnMnyfrUOG1sZQxCdjKh+DKg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 22.2.0
+      '@types/node': 22.3.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
@@ -1450,7 +1450,7 @@ packages:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 22.2.0
+      '@types/node': 22.3.0
       long: 5.2.3
     dev: false
 
@@ -2007,8 +2007,8 @@ packages:
     resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
     dev: true
 
-  /undici-types@6.13.0:
-    resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
+  /undici-types@6.18.2:
+    resolution: {integrity: sha512-5ruQbENj95yDYJNS3TvcaxPMshV7aizdv/hWYjGIKoANWKjhWNBsr2YEuYZKodQulB1b8l7ILOuDQep3afowQQ==}
 
   /unicode-regex@4.0.0:
     resolution: {integrity: sha512-Zdlz4CqHeCy1pw2J15RmCMw/9QLRBz+BykmI8YNbtbf4pIV8t+1fHKD7y13NhauPEvisi2e5SoaonBNX77opGA==}
